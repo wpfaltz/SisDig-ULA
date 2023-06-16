@@ -1,0 +1,651 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.03 secs
+ 
+--> 
+Reading design: inputs.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "inputs.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "inputs"
+Output Format                      : NGC
+Target Device                      : xc3s700an-4-fgg484
+
+---- Source Options
+Top Module Name                    : inputs
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/Half_Adder.vhd" in Library work.
+Architecture behavioral of Entity half_adder is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/Full_Adder.vhd" in Library work.
+Architecture fulladder_behav of Entity full_adder is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/PRODUCT_Vector_A_x_Bit_B.vhd" in Library work.
+Architecture behavioral of Entity product_vector_a_x_bit_b is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/SUM_2_Vectors_4_Bits.vhd" in Library work.
+Architecture fouradder_structure of Entity sum_2_vectors_4_bits is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/DIFF_2_Vectors_4_Bits.vhd" in Library work.
+Architecture behavioral of Entity diff_2_vectors_4_bits is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/PRODUCT_2_Vectors_4_Bits.vhd" in Library work.
+Architecture behavioral of Entity product_2_vectors_4_bits is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.vhd" in Library work.
+Architecture behavioral of Entity double_vector_a is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.vhd" in Library work.
+Architecture behavioral of Entity and_2_vectors_4_bits is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/OR_2_Vectors_4_Bits.vhd" in Library work.
+Architecture behavioral of Entity or_2_vectors_4_bits is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/XOR_2_Vectors_4_Bits.vhd" in Library work.
+Architecture behavioral of Entity xor_2_vectors_4_bits is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/NOT_Vector_A.vhd" in Library work.
+Architecture behavioral of Entity not_vector_a is up to date.
+Compiling vhdl file "/home/william/Downloads/PraticaSD1/inputs.vhd" in Library work.
+Entity <inputs> compiled.
+Entity <inputs> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <inputs> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SUM_2_Vectors_4_Bits> in library <work> (architecture <fouradder_structure>).
+
+Analyzing hierarchy for entity <DIFF_2_Vectors_4_Bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PRODUCT_2_Vectors_4_Bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DOUBLE_Vector_A> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <AND_2_Vectors_4_Bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR_2_Vectors_4_Bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <XOR_2_Vectors_4_Bits> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <NOT_Vector_A> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <fulladder_behav>).
+
+Analyzing hierarchy for entity <PRODUCT_Vector_A_x_Bit_B> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SUM_2_Vectors_4_Bits> in library <work> (architecture <fouradder_structure>).
+
+Analyzing hierarchy for entity <Half_Adder> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <fulladder_behav>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <fulladder_behav>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <fulladder_behav>).
+
+Analyzing hierarchy for entity <Full_Adder> in library <work> (architecture <fulladder_behav>).
+
+Analyzing hierarchy for entity <Half_Adder> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <inputs> in library <work> (Architecture <behavioral>).
+Entity <inputs> analyzed. Unit <inputs> generated.
+
+Analyzing Entity <SUM_2_Vectors_4_Bits> in library <work> (Architecture <fouradder_structure>).
+Entity <SUM_2_Vectors_4_Bits> analyzed. Unit <SUM_2_Vectors_4_Bits> generated.
+
+Analyzing Entity <Full_Adder> in library <work> (Architecture <fulladder_behav>).
+Entity <Full_Adder> analyzed. Unit <Full_Adder> generated.
+
+Analyzing Entity <Half_Adder> in library <work> (Architecture <behavioral>).
+Entity <Half_Adder> analyzed. Unit <Half_Adder> generated.
+
+Analyzing Entity <DIFF_2_Vectors_4_Bits> in library <work> (Architecture <behavioral>).
+Entity <DIFF_2_Vectors_4_Bits> analyzed. Unit <DIFF_2_Vectors_4_Bits> generated.
+
+Analyzing Entity <PRODUCT_2_Vectors_4_Bits> in library <work> (Architecture <behavioral>).
+Entity <PRODUCT_2_Vectors_4_Bits> analyzed. Unit <PRODUCT_2_Vectors_4_Bits> generated.
+
+Analyzing Entity <PRODUCT_Vector_A_x_Bit_B> in library <work> (Architecture <behavioral>).
+Entity <PRODUCT_Vector_A_x_Bit_B> analyzed. Unit <PRODUCT_Vector_A_x_Bit_B> generated.
+
+Analyzing Entity <DOUBLE_Vector_A> in library <work> (Architecture <behavioral>).
+Entity <DOUBLE_Vector_A> analyzed. Unit <DOUBLE_Vector_A> generated.
+
+Analyzing Entity <AND_2_Vectors_4_Bits> in library <work> (Architecture <behavioral>).
+Entity <AND_2_Vectors_4_Bits> analyzed. Unit <AND_2_Vectors_4_Bits> generated.
+
+Analyzing Entity <OR_2_Vectors_4_Bits> in library <work> (Architecture <behavioral>).
+Entity <OR_2_Vectors_4_Bits> analyzed. Unit <OR_2_Vectors_4_Bits> generated.
+
+Analyzing Entity <XOR_2_Vectors_4_Bits> in library <work> (Architecture <behavioral>).
+Entity <XOR_2_Vectors_4_Bits> analyzed. Unit <XOR_2_Vectors_4_Bits> generated.
+
+Analyzing Entity <NOT_Vector_A> in library <work> (Architecture <behavioral>).
+Entity <NOT_Vector_A> analyzed. Unit <NOT_Vector_A> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <AND_2_Vectors_4_Bits>.
+    Related source file is "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.vhd".
+Unit <AND_2_Vectors_4_Bits> synthesized.
+
+
+Synthesizing Unit <OR_2_Vectors_4_Bits>.
+    Related source file is "/home/william/Downloads/PraticaSD1/OR_2_Vectors_4_Bits.vhd".
+Unit <OR_2_Vectors_4_Bits> synthesized.
+
+
+Synthesizing Unit <XOR_2_Vectors_4_Bits>.
+    Related source file is "/home/william/Downloads/PraticaSD1/XOR_2_Vectors_4_Bits.vhd".
+    Found 4-bit xor2 for signal <C>.
+Unit <XOR_2_Vectors_4_Bits> synthesized.
+
+
+Synthesizing Unit <NOT_Vector_A>.
+    Related source file is "/home/william/Downloads/PraticaSD1/NOT_Vector_A.vhd".
+Unit <NOT_Vector_A> synthesized.
+
+
+Synthesizing Unit <Half_Adder>.
+    Related source file is "/home/william/Downloads/PraticaSD1/Half_Adder.vhd".
+    Found 1-bit xor2 for signal <sum>.
+Unit <Half_Adder> synthesized.
+
+
+Synthesizing Unit <PRODUCT_Vector_A_x_Bit_B>.
+    Related source file is "/home/william/Downloads/PraticaSD1/PRODUCT_Vector_A_x_Bit_B.vhd".
+Unit <PRODUCT_Vector_A_x_Bit_B> synthesized.
+
+
+Synthesizing Unit <Full_Adder>.
+    Related source file is "/home/william/Downloads/PraticaSD1/Full_Adder.vhd".
+Unit <Full_Adder> synthesized.
+
+
+Synthesizing Unit <SUM_2_Vectors_4_Bits>.
+    Related source file is "/home/william/Downloads/PraticaSD1/SUM_2_Vectors_4_Bits.vhd".
+WARNING:Xst:1780 - Signal <c<0>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit xor2 for signal <V>.
+Unit <SUM_2_Vectors_4_Bits> synthesized.
+
+
+Synthesizing Unit <DIFF_2_Vectors_4_Bits>.
+    Related source file is "/home/william/Downloads/PraticaSD1/DIFF_2_Vectors_4_Bits.vhd".
+WARNING:Xst:1780 - Signal <c<0>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit xor2 for signal <V>.
+Unit <DIFF_2_Vectors_4_Bits> synthesized.
+
+
+Synthesizing Unit <DOUBLE_Vector_A>.
+    Related source file is "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.vhd".
+Unit <DOUBLE_Vector_A> synthesized.
+
+
+Synthesizing Unit <PRODUCT_2_Vectors_4_Bits>.
+    Related source file is "/home/william/Downloads/PraticaSD1/PRODUCT_2_Vectors_4_Bits.vhd".
+WARNING:Xst:646 - Signal <vt2> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <vt1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <vt0> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <PRODUCT_2_Vectors_4_Bits> synthesized.
+
+
+Synthesizing Unit <inputs>.
+    Related source file is "/home/william/Downloads/PraticaSD1/inputs.vhd".
+WARNING:Xst:646 - Signal <flag_soma> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cout_Soma> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cout_DOBRO> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <cout_DIFF> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <MULTIPLICACAO<7:4>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <Flag_diff> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found finite state machine <FSM_0> for signal <Selecionador_Fases>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 52                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Clock enable       | Selecionador_Fases$not0000 (positive)          |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 00                                             |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <continuar>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 128                                            |
+    | Inputs             | 10                                             |
+    | Outputs            | 16                                             |
+    | Clock              | CLK                       (rising_edge)        |
+    | Clock enable       | continuar$not0000         (positive)           |
+    | Reset              | rst                       (positive)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 1001                                           |
+    | Power Up State     | 1001                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_2> for signal <verifica>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 3                                              |
+    | Clock              | CLK                       (rising_edge)        |
+    | Clock enable       | verifica$not0000          (positive)           |
+    | Power Up State     | 00                                             |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit register for signal <Outesquerda>.
+    Found 4-bit register for signal <OutDireita>.
+    Found 4-bit register for signal <A>.
+    Found 4-bit register for signal <B>.
+    Found 4-bit register for signal <C>.
+    Found 27-bit register for signal <Contador>.
+    Found 27-bit adder for signal <Contador$addsub0000> created at line 164.
+    Found 27-bit comparator greatequal for signal <continuar$cmp_ge0000> created at line 455.
+    Found 27-bit comparator less for signal <continuar$cmp_lt0000> created at line 455.
+    Summary:
+	inferred   3 Finite State Machine(s).
+	inferred  47 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+Unit <inputs> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 27-bit adder                                          : 1
+# Registers                                            : 9
+ 1-bit register                                        : 4
+ 27-bit register                                       : 1
+ 4-bit register                                        : 4
+# Comparators                                          : 2
+ 27-bit comparator greatequal                          : 1
+ 27-bit comparator less                                : 1
+# Xors                                                 : 54
+ 1-bit xor2                                            : 53
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <verifica/FSM> on signal <verifica[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <continuar/FSM> on signal <continuar[1:4]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0001  | 1100
+ 0010  | 0100
+ 0011  | 0101
+ 0100  | 0111
+ 0101  | 0110
+ 0110  | 0010
+ 0111  | 0011
+ 1000  | 0001
+ 1001  | 0000
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Selecionador_Fases/FSM> on signal <Selecionador_Fases[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 10
+ 10    | 11
+ 11    | 01
+-------------------
+WARNING:Xst:1290 - Hierarchical block <FA3> is unconnected in block <fb0>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <FA2> is unconnected in block <fb1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <FA3> is unconnected in block <fb1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <FA1> is unconnected in block <fb2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <FA2> is unconnected in block <fb2>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <FA3> is unconnected in block <fb2>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# Adders/Subtractors                                   : 1
+ 27-bit adder                                          : 1
+# Registers                                            : 47
+ Flip-Flops                                            : 47
+# Comparators                                          : 2
+ 27-bit comparator greatequal                          : 1
+ 27-bit comparator less                                : 1
+# Xors                                                 : 54
+ 1-bit xor2                                            : 53
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <inputs> ...
+WARNING:Xst:1710 - FF/Latch <Outesquerda_3> (without init value) has a constant value of 0 in block <inputs>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block inputs, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 54
+ Flip-Flops                                            : 54
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : inputs.ngr
+Top Level Output File Name         : inputs
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 17
+
+Cell Usage :
+# BELS                             : 316
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 30
+#      LUT2                        : 41
+#      LUT2_D                      : 4
+#      LUT2_L                      : 4
+#      LUT3                        : 27
+#      LUT3_D                      : 7
+#      LUT3_L                      : 9
+#      LUT4                        : 85
+#      LUT4_D                      : 14
+#      LUT4_L                      : 20
+#      MUXCY                       : 36
+#      MUXF5                       : 5
+#      VCC                         : 1
+#      XORCY                       : 27
+# FlipFlops/Latches                : 54
+#      FDE                         : 44
+#      FDRE                        : 6
+#      FDSE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 8
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700anfgg484-4 
+
+ Number of Slices:                      129  out of   5888     2%  
+ Number of Slice Flip Flops:             54  out of  11776     0%  
+ Number of 4 input LUTs:                246  out of  11776     2%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    372     4%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 54    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 9.208ns (Maximum Frequency: 108.601MHz)
+   Minimum input arrival time before clock: 4.159ns
+   Maximum output required time after clock: 5.642ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 9.208ns (frequency: 108.601MHz)
+  Total number of paths / destination ports: 5049 / 100
+-------------------------------------------------------------------------
+Delay:               9.208ns (Levels of Logic = 7)
+  Source:            continuar_FSM_FFd3 (FF)
+  Destination:       OutDireita_1 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: continuar_FSM_FFd3 to OutDireita_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            22   0.591   1.196  continuar_FSM_FFd3 (continuar_FSM_FFd3)
+     LUT3:I2->O            1   0.648   0.452  verifica_or0002_SW0 (N2)
+     LUT4:I2->O           18   0.648   1.100  verifica_or0002 (verifica_or0002)
+     LUT3_L:I2->LO         1   0.648   0.103  OutDireita_1_mux000015 (OutDireita_1_mux000015)
+     LUT4:I3->O            1   0.648   0.423  OutDireita_1_mux000040_SW0 (N15)
+     LUT4_L:I3->LO         1   0.648   0.103  OutDireita_1_mux000040 (OutDireita_1_mux000040)
+     LUT4:I3->O            1   0.648   0.452  OutDireita_1_mux000080 (OutDireita_1_mux000080)
+     LUT4:I2->O            1   0.648   0.000  OutDireita_1_mux0000433 (OutDireita_1_mux0000)
+     FDE:D                     0.252          OutDireita_1
+    ----------------------------------------
+    Total                      9.208ns (5.379ns logic, 3.829ns route)
+                                       (58.4% logic, 41.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 39 / 34
+-------------------------------------------------------------------------
+Offset:              4.159ns (Levels of Logic = 3)
+  Source:            ButtonE (PAD)
+  Destination:       Selecionador_Fases_FSM_FFd1 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: ButtonE to Selecionador_Fases_FSM_FFd1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.849   0.479  ButtonE_IBUF (ButtonE_IBUF)
+     LUT3:I2->O            5   0.648   0.776  B_and00001 (B_and0000)
+     LUT3:I0->O            2   0.648   0.447  Selecionador_Fases_not00011 (Selecionador_Fases_not0001)
+     FDRE:CE                   0.312          Selecionador_Fases_FSM_FFd1
+    ----------------------------------------
+    Total                      4.159ns (2.457ns logic, 1.702ns route)
+                                       (59.1% logic, 40.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              5.642ns (Levels of Logic = 1)
+  Source:            OutDireita_3 (FF)
+  Destination:       OutDireita<3> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: OutDireita_3 to OutDireita<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.591   0.531  OutDireita_3 (OutDireita_3)
+     OBUF:I->O                 4.520          OutDireita_3_OBUF (OutDireita<3>)
+    ----------------------------------------
+    Total                      5.642ns (5.111ns logic, 0.531ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.51 secs
+ 
+--> 
+
+
+Total memory usage is 529800 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

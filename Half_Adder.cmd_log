@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/Half_Adder.xst" -ofn "/home/william/Downloads/PraticaSD1/Half_Adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Half_Adder.ngc Half_Adder.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 

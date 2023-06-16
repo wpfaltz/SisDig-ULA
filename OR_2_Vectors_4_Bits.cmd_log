@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/OR_2_Vectors_4_Bits.xst" -ofn "/home/william/Downloads/PraticaSD1/OR_2_Vectors_4_Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 OR_2_Vectors_4_Bits.ngc OR_2_Vectors_4_Bits.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o OR_2_Vectors_4_Bits_map.ncd OR_2_Vectors_4_Bits.ngd OR_2_Vectors_4_Bits.pcf 

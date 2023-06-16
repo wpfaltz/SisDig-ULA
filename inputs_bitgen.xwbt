@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/william/Downloads/PraticaSD1/inputs.ncd
+OUTFILE=/home/william/Downloads/PraticaSD1/inputs.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s700an-4fgg484
+WORKINGDIR=/home/william/Downloads/PraticaSD1
+LICENSE=WebPack
+USER_INFO=212744713_0_0_210

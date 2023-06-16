@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 inputs.ngc inputs.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o inputs_map.ncd inputs.ngd inputs.pcf 
+par -w -intstyle ise -ol high -t 1 inputs_map.ncd inputs.ncd inputs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml inputs.twx inputs.ncd -o inputs.twr inputs.pcf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 inputs.ngc inputs.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o inputs_map.ncd inputs.ngd inputs.pcf 
+par -w -intstyle ise -ol high -t 1 inputs_map.ncd inputs.ncd inputs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml inputs.twx inputs.ncd -o inputs.twr inputs.pcf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 inputs.ngc inputs.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o inputs_map.ncd inputs.ngd inputs.pcf 
+par -w -intstyle ise -ol high -t 1 inputs_map.ncd inputs.ncd inputs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml inputs.twx inputs.ncd -o inputs.twr inputs.pcf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 inputs.ngc inputs.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o inputs_map.ncd inputs.ngd inputs.pcf 
+par -w -intstyle ise -ol high -t 1 inputs_map.ncd inputs.ncd inputs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml inputs.twx inputs.ncd -o inputs.twr inputs.pcf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 inputs.ngc inputs.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o inputs_map.ncd inputs.ngd inputs.pcf 
+par -w -intstyle ise -ol high -t 1 inputs_map.ncd inputs.ncd inputs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml inputs.twx inputs.ncd -o inputs.twr inputs.pcf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 inputs.ngc inputs.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o inputs_map.ncd inputs.ngd inputs.pcf 
+par -w -intstyle ise -ol high -t 1 inputs_map.ncd inputs.ncd inputs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml inputs.twx inputs.ncd -o inputs.twr inputs.pcf -ucf pinagem.ucf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/inputs.xst" -ofn "/home/william/Downloads/PraticaSD1/inputs.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pinagem.ucf -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 inputs.ngc inputs.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o inputs_map.ncd inputs.ngd inputs.pcf 
+par -w -intstyle ise -ol high -t 1 inputs_map.ncd inputs.ncd inputs.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml inputs.twx inputs.ncd -o inputs.twr inputs.pcf -ucf pinagem.ucf 
+bitgen -intstyle ise -f inputs.ut inputs.ncd 

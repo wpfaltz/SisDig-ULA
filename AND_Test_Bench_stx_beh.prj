@@ -1,0 +1,2 @@
+vhdl isim_temp "AND_2_Vectors_4_Bits.vhd"
+vhdl isim_temp "AND_Test_Bench.vhd"

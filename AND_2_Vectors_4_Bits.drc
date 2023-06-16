@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Jun 15 16:14:00 2023
+
+drc -z AND_2_Vectors_4_Bits.ncd AND_2_Vectors_4_Bits.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,2 @@
+vhdl isim_temp "NOT_Vector_A.vhd"
+vhdl isim_temp "NOT_Test_Bench.vhd"

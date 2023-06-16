@@ -1,0 +1,29 @@
+Command line:
+   DOUBLE_Test_Bench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35025
+
+Thu Jun 15 22:49:43 2023
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 194.548 Meg
+
+ Total Signals          : 57
+ Total Nets             : 18
+ Total Signal Drivers   : 14
+ Total Blocks           : 15
+ Total Primitive Blocks : 9
+ Total Processes        : 14
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 379
+Total Line Count : 21
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 270.049 Meg
+
+Fri Jun 16 00:44:23 2023
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/AND_2_Vectors_4_Bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/DIFF_2_Vectors_4_Bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/DOUBLE_Vector_A.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/Full_Adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/Half_Adder.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/NOT_Vector_A.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/OR_2_Vectors_4_Bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/PRODUCT_2_Vectors_4_Bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/PRODUCT_Vector_A_x_Bit_B.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/SUM_2_Vectors_4_Bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/XOR_2_Vectors_4_Bits.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/inputs.vhd&quot; into library work</arg>
+</msg>
+
+</messages>
+

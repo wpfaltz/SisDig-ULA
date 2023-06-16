@@ -1,0 +1,83 @@
+V3 47
+FL /home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.vhd 2023/06/15.13:56:39 P.20131013
+EN work/AND_2_Vectors_4_Bits 1686932316 \
+      FL /home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/AND_2_Vectors_4_Bits/Behavioral 1686932317 \
+      FL /home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.vhd \
+      EN work/AND_2_Vectors_4_Bits 1686932316
+FL /home/william/Downloads/PraticaSD1/DIFF_2_Vectors_4_Bits.vhd 2023/06/15.15:20:09 P.20131013
+EN work/DIFF_2_Vectors_4_Bits 1686932310 \
+      FL /home/william/Downloads/PraticaSD1/DIFF_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DIFF_2_Vectors_4_Bits/Behavioral 1686932311 \
+      FL /home/william/Downloads/PraticaSD1/DIFF_2_Vectors_4_Bits.vhd \
+      EN work/DIFF_2_Vectors_4_Bits 1686932310 CP Full_Adder
+FL /home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.vhd 2023/06/15.22:43:37 P.20131013
+EN work/DOUBLE_Vector_A 1686932314 \
+      FL /home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/DOUBLE_Vector_A/Behavioral 1686932315 \
+      FL /home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.vhd \
+      EN work/DOUBLE_Vector_A 1686932314 CP Full_Adder
+FL /home/william/Downloads/PraticaSD1/Full_Adder.vhd 2023/06/15.13:58:58 P.20131013
+EN work/Full_Adder 1686932304 \
+      FL /home/william/Downloads/PraticaSD1/Full_Adder.vhd PB ieee/std_logic_1164 1381692176
+AR work/Full_Adder/fulladder_behav 1686932305 \
+      FL /home/william/Downloads/PraticaSD1/Full_Adder.vhd EN work/Full_Adder 1686932304 \
+      CP Half_Adder
+FL /home/william/Downloads/PraticaSD1/Half_Adder.vhd 2023/06/15.13:55:19 P.20131013
+EN work/Half_Adder 1686932302 \
+      FL /home/william/Downloads/PraticaSD1/Half_Adder.vhd PB ieee/std_logic_1164 1381692176
+AR work/Half_Adder/Behavioral 1686932303 \
+      FL /home/william/Downloads/PraticaSD1/Half_Adder.vhd EN work/Half_Adder 1686932302
+FL /home/william/Downloads/PraticaSD1/inputs.vhd 2023/06/16.13:17:47 P.20131013
+EN work/inputs 1686932324 FL /home/william/Downloads/PraticaSD1/inputs.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/inputs/Behavioral 1686932325 \
+      FL /home/william/Downloads/PraticaSD1/inputs.vhd EN work/inputs 1686932324 \
+      CP SUM_2_Vectors_4_Bits CP DIFF_2_Vectors_4_Bits CP PRODUCT_2_Vectors_4_Bits \
+      CP DOUBLE_Vector_A CP AND_2_Vectors_4_Bits CP OR_2_Vectors_4_Bits \
+      CP XOR_2_Vectors_4_Bits CP NOT_Vector_A
+FL /home/william/Downloads/PraticaSD1/NOT_Vector_A.vhd 2023/06/15.16:39:23 P.20131013
+EN work/NOT_Vector_A 1686932322 \
+      FL /home/william/Downloads/PraticaSD1/NOT_Vector_A.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/NOT_Vector_A/Behavioral 1686932323 \
+      FL /home/william/Downloads/PraticaSD1/NOT_Vector_A.vhd EN work/NOT_Vector_A 1686932322
+FL /home/william/Downloads/PraticaSD1/OR_2_Vectors_4_Bits.vhd 2023/06/15.14:57:16 P.20131013
+EN work/OR_2_Vectors_4_Bits 1686932318 \
+      FL /home/william/Downloads/PraticaSD1/OR_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/OR_2_Vectors_4_Bits/Behavioral 1686932319 \
+      FL /home/william/Downloads/PraticaSD1/OR_2_Vectors_4_Bits.vhd \
+      EN work/OR_2_Vectors_4_Bits 1686932318
+FL /home/william/Downloads/PraticaSD1/PRODUCT_2_Vectors_4_Bits.vhd 2023/06/16.12:19:24 P.20131013
+EN work/PRODUCT_2_Vectors_4_Bits 1686932312 \
+      FL /home/william/Downloads/PraticaSD1/PRODUCT_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/PRODUCT_2_Vectors_4_Bits/Behavioral 1686932313 \
+      FL /home/william/Downloads/PraticaSD1/PRODUCT_2_Vectors_4_Bits.vhd \
+      EN work/PRODUCT_2_Vectors_4_Bits 1686932312 CP PRODUCT_Vector_A_x_Bit_B \
+      CP SUM_2_Vectors_4_Bits
+FL /home/william/Downloads/PraticaSD1/PRODUCT_Vector_A_x_Bit_B.vhd 2023/06/15.16:31:40 P.20131013
+EN work/PRODUCT_Vector_A_x_Bit_B 1686932306 \
+      FL /home/william/Downloads/PraticaSD1/PRODUCT_Vector_A_x_Bit_B.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/PRODUCT_Vector_A_x_Bit_B/Behavioral 1686932307 \
+      FL /home/william/Downloads/PraticaSD1/PRODUCT_Vector_A_x_Bit_B.vhd \
+      EN work/PRODUCT_Vector_A_x_Bit_B 1686932306
+FL /home/william/Downloads/PraticaSD1/SUM_2_Vectors_4_Bits.vhd 2023/06/15.15:05:51 P.20131013
+EN work/SUM_2_Vectors_4_Bits 1686932308 \
+      FL /home/william/Downloads/PraticaSD1/SUM_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SUM_2_Vectors_4_Bits/fouradder_structure 1686932309 \
+      FL /home/william/Downloads/PraticaSD1/SUM_2_Vectors_4_Bits.vhd \
+      EN work/SUM_2_Vectors_4_Bits 1686932308 CP Full_Adder
+FL /home/william/Downloads/PraticaSD1/XOR_2_Vectors_4_Bits.vhd 2023/06/15.13:56:12 P.20131013
+EN work/XOR_2_Vectors_4_Bits 1686932320 \
+      FL /home/william/Downloads/PraticaSD1/XOR_2_Vectors_4_Bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/XOR_2_Vectors_4_Bits/Behavioral 1686932321 \
+      FL /home/william/Downloads/PraticaSD1/XOR_2_Vectors_4_Bits.vhd \
+      EN work/XOR_2_Vectors_4_Bits 1686932320

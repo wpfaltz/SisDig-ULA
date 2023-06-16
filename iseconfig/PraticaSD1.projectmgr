@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="PraticaSD1" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/DIFF_2_Vectors_4_Bits - Behavioral |home|william|Downloads|PraticaSD1|DIFF_2_Vectors_4_Bits.vhd</ClosedNode>
+         <ClosedNode>/OR_2_Vectors_4_Bits - Behavioral |home|william|Downloads|PraticaSD1|OR_2_Vectors_4_Bits.vhd</ClosedNode>
+         <ClosedNode>/PRODUCT_2_Vectors_4_Bits - Behavioral |home|william|Downloads|PraticaSD1|PRODUCT_2_Vectors_4_Bits.vhd</ClosedNode>
+         <ClosedNode>/SUM_2_Vectors_4_Bits - fouradder_structure |home|william|Downloads|PraticaSD1|SUM_2_Vectors_4_Bits.vhd</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1 - VERSAO FINAL FINAL|inputs.vhd/A_2 - DOUBLE_Vector_A - Behavioral</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1 - VERSAO FINAL FINAL|inputs.vhd/DIFF - DIFF_2_Vectors_4_Bits - Behavioral</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1 - VERSAO FINAL FINAL|inputs.vhd/SUM - SUM_2_Vectors_4_Bits - fouradder_structure</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1 - VERSAO FINAL FINAL|inputs.vhd/multi - PRODUCT_2_Vectors_4_Bits - Behavioral</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/A_2 - DOUBLE_Vector_A - Behavioral</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/DIFF - DIFF_2_Vectors_4_Bits - Behavioral</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/OR_2 - OR_2_Vectors_4_Bits - Behavioral</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/SUM - SUM_2_Vectors_4_Bits - fouradder_structure</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/multi - PRODUCT_2_Vectors_4_Bits - Behavioral</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/multi - PRODUCT_2_Vectors_4_Bits - Behavioral/fb0 - SUM_2_Vectors_4_Bits - fouradder_structure</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/multi - PRODUCT_2_Vectors_4_Bits - Behavioral/fb1 - SUM_2_Vectors_4_Bits - fouradder_structure</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd/multi - PRODUCT_2_Vectors_4_Bits - Behavioral/fb2 - SUM_2_Vectors_4_Bits - fouradder_structure</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>SUM - SUM_2_Vectors_4_Bits - fouradder_structure (/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/SUM_2_Vectors_4_Bits.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000026e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000026e0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>SUM - SUM_2_Vectors_4_Bits - fouradder_structure (/home/william/Downloads/PraticaSD1 - VERSAO FINAL FINAL/SUM_2_Vectors_4_Bits.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000b10000000040101000100000000000000000000000064ffffffff000000810000000000000004000000ca00000001000000000000005d0000000100000000000000840000000100000000000009650000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>AND_2_Vectors_4_Bits.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000128000000010001000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f4000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f40000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AND_Test_Bench - behavior |home|william|Downloads|PraticaSD1|AND_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/DIFF_Test_Bench - behavior |home|william|Downloads|PraticaSD1|DIFF_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/DOUBLE_Test_Bench - behavior |home|william|Downloads|PraticaSD1|DOUBLE_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/Diff_Test_Bench - behavior |home|william|Downloads|PraticaSD1|Diff_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/NOT_Test_Bench - behavior |home|william|Downloads|PraticaSD1|NOT_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/OR_Test_Bench - behavior |home|william|Downloads|PraticaSD1|OR_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/Product_Test_Bench - behavior |home|william|Downloads|PraticaSD1|Product_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/SUM_Test_Bench - behavior |home|william|Downloads|PraticaSD1|SUM_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/XOR_Test_Bench - behavior |home|william|Downloads|PraticaSD1|XOR_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/inputs - Behavioral |home|william|Downloads|PraticaSD1|inputs.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000297000000020000000000000000000000000200000064ffffffff000000810000000300000002000002970000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

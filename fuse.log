@@ -1,0 +1,26 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/william/Downloads/PraticaSD1/DOUBLE_Test_Bench_isim_beh.exe -prj /home/william/Downloads/PraticaSD1/DOUBLE_Test_Bench_beh.prj work.DOUBLE_Test_Bench 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/william/Downloads/PraticaSD1/Half_Adder.vhd" into library work
+Parsing VHDL file "/home/william/Downloads/PraticaSD1/Full_Adder.vhd" into library work
+Parsing VHDL file "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.vhd" into library work
+Parsing VHDL file "/home/william/Downloads/PraticaSD1/DOUBLE_Test_Bench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83088 KB
+Fuse CPU Usage: 1280 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Half_Adder [half_adder_default]
+Compiling architecture fulladder_behav of entity Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity DOUBLE_Vector_A [double_vector_a_default]
+Compiling architecture behavior of entity double_test_bench
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable /home/william/Downloads/PraticaSD1/DOUBLE_Test_Bench_isim_beh.exe
+Fuse Memory Usage: 1173160 KB
+Fuse CPU Usage: 1320 ms
+GCC CPU Usage: 680 ms

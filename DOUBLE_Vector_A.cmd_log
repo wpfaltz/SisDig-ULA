@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.xst" -ofn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.xst" -ofn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.syr" 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.xst" -ofn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 DOUBLE_Vector_A.ngc DOUBLE_Vector_A.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o DOUBLE_Vector_A_map.ncd DOUBLE_Vector_A.ngd DOUBLE_Vector_A.pcf 
+par -w -intstyle ise -ol high -t 1 DOUBLE_Vector_A_map.ncd DOUBLE_Vector_A.ncd DOUBLE_Vector_A.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DOUBLE_Vector_A.twx DOUBLE_Vector_A.ncd -o DOUBLE_Vector_A.twr DOUBLE_Vector_A.pcf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.xst" -ofn "/home/william/Downloads/PraticaSD1/DOUBLE_Vector_A.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 DOUBLE_Vector_A.ngc DOUBLE_Vector_A.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o DOUBLE_Vector_A_map.ncd DOUBLE_Vector_A.ngd DOUBLE_Vector_A.pcf 
+par -w -intstyle ise -ol high -t 1 DOUBLE_Vector_A_map.ncd DOUBLE_Vector_A.ncd DOUBLE_Vector_A.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DOUBLE_Vector_A.twx DOUBLE_Vector_A.ncd -o DOUBLE_Vector_A.twr DOUBLE_Vector_A.pcf 

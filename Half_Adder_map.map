@@ -1,0 +1,57 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Map Application Log File for Design 'Half_Adder'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr
+off -c 100 -o Half_Adder_map.ncd Half_Adder.ngd Half_Adder.pcf 
+Target Device  : xc3s700an
+Target Package : fgg484
+Target Speed   : -4
+Mapper Version : spartan3a -- $Revision: 1.55 $
+Mapped Date    : Thu Jun 15 13:57:19 2023
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s700an' is a WebPack part.
+INFO:Security:7 - A feature for ISE was found but is for the wrong hostid.
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is william, on host unknown.
+ERROR:Security:9c - No 'ISE' nor 'WebPack' feature version 2013.10 was available
+for part 'xc3s700an'.
+----------------------------------------------------------------------
+No such feature exists.
+Feature:       WebPack
+License path: 
+/home/william/.Xilinx/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//data/*.lic:/opt/Xi
+linx/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/I
+SE//coregen/core_licenses/XilinxFree.lic:/opt/Xilinx/14.7/ISE_DS/EDK/data/core_l
+icenses/Xilinx.lic:
+FLEXnet Licensing error:-5,357
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".Invalid host.
+ The hostid of this system does not match the hostid
+ specified in the license file.
+Feature:       ISE
+Hostid:        d46a6aeff475
+License path: 
+/home/william/.Xilinx/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//data/*.lic:/opt/Xi
+linx/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/I
+SE//coregen/core_licenses/XilinxFree.lic:/opt/Xilinx/14.7/ISE_DS/EDK/data/core_l
+icenses/Xilinx.lic:
+FLEXnet Licensing error:-9,57
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ERROR:Map:258 - A problem was encountered attempting to get the license for this
+   architecture.
+
+
+
+Design Summary
+--------------
+Number of errors   :   1
+Number of warnings :   0

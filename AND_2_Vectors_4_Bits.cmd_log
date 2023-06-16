@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.xst" -ofn "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 AND_2_Vectors_4_Bits.ngc AND_2_Vectors_4_Bits.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o AND_2_Vectors_4_Bits_map.ncd AND_2_Vectors_4_Bits.ngd AND_2_Vectors_4_Bits.pcf 
+par -w -intstyle ise -ol high -t 1 AND_2_Vectors_4_Bits_map.ncd AND_2_Vectors_4_Bits.ncd AND_2_Vectors_4_Bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml AND_2_Vectors_4_Bits.twx AND_2_Vectors_4_Bits.ncd -o AND_2_Vectors_4_Bits.twr AND_2_Vectors_4_Bits.pcf 
+bitgen -intstyle ise -f AND_2_Vectors_4_Bits.ut AND_2_Vectors_4_Bits.ncd 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.xst" -ofn "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 AND_2_Vectors_4_Bits.ngc AND_2_Vectors_4_Bits.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o AND_2_Vectors_4_Bits_map.ncd AND_2_Vectors_4_Bits.ngd AND_2_Vectors_4_Bits.pcf 
+par -w -intstyle ise -ol high -t 1 AND_2_Vectors_4_Bits_map.ncd AND_2_Vectors_4_Bits.ncd AND_2_Vectors_4_Bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml AND_2_Vectors_4_Bits.twx AND_2_Vectors_4_Bits.ncd -o AND_2_Vectors_4_Bits.twr AND_2_Vectors_4_Bits.pcf 
+xst -intstyle ise -ifn "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.xst" -ofn "/home/william/Downloads/PraticaSD1/AND_2_Vectors_4_Bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -bm NOT_First_Vector_4_Bits.bmm -p xc3s700an-fgg484-4 AND_2_Vectors_4_Bits.ngc AND_2_Vectors_4_Bits.ngd  
+map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o AND_2_Vectors_4_Bits_map.ncd AND_2_Vectors_4_Bits.ngd AND_2_Vectors_4_Bits.pcf 
+par -w -intstyle ise -ol high -t 1 AND_2_Vectors_4_Bits_map.ncd AND_2_Vectors_4_Bits.ncd AND_2_Vectors_4_Bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml AND_2_Vectors_4_Bits.twx AND_2_Vectors_4_Bits.ncd -o AND_2_Vectors_4_Bits.twr AND_2_Vectors_4_Bits.pcf 

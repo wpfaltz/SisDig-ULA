@@ -1,0 +1,2 @@
+vhdl isim_temp "XOR_2_Vectors_4_Bits.vhd"
+vhdl isim_temp "XOR_Test_Bench.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/william/Downloads/PraticaSD1/DOUBLE_Test_Bench_isim_beh.exe" -prj "/home/william/Downloads/PraticaSD1/DOUBLE_Test_Bench_beh.prj" "work.DOUBLE_Test_Bench" 

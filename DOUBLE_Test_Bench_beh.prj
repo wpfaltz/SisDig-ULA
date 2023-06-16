@@ -1,0 +1,4 @@
+vhdl work "Half_Adder.vhd"
+vhdl work "Full_Adder.vhd"
+vhdl work "DOUBLE_Vector_A.vhd"
+vhdl work "DOUBLE_Test_Bench.vhd"
